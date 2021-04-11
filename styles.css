@@ -1,0 +1,33 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Search Form Styles */
+.search-form {
+    padding: 10px;
+}
+
+.search-form__input,
+.search-form__button {
+    font-family: inherit;
+    font-size: 100%;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.search-form__button {
+    background-color: #184074;
+    color: #fff;
+    border: 2px solid transparent;
+}
