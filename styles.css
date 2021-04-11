@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 90%;
@@ -20,7 +24,7 @@ body {
 .search-form__input,
 .search-form__button {
     font-family: inherit;
-    font-size: 100%;
+    font-size: 1.6rem;
     width: 100%;
     padding: 7px;
     margin-bottom: 10px;
@@ -30,4 +34,66 @@ body {
     background-color: #184074;
     color: #fff;
     border: 2px solid transparent;
+}
+
+/* Pokemon Card Styles */
+.pokemon-card {
+    background-color: #eee;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: calc(100% - 20px);
+    text-align: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pokemon-card__aside {
+    padding: 20px 20px 0 20px;
+}
+
+.pokemon-card__figure {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.pokemon-card__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.pokemon-card__caption {
+    font-size: 1.8rem;
+}
+
+.pokemon-card__header {
+    margin-bottom: 10px;
+}
+
+.pokemon-card__title {
+    font-size: 4rem;
+}
+
+.pokemon-card__subtitle {
+    font-size: 2.5rem;
+}
+
+.pokemon-card__body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.pokemon-card__description {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    text-align: left;
+    padding: 15px;
+    border: 5px double black;
+}
+
+.pokemon-card__footer {
+    padding: 15px;
+}
+
+.pokemon-card__type {
+    font-size: 1.5rem;
 }
